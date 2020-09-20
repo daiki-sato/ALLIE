@@ -1,0 +1,419 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.container{
+  padding: 0;
+  margin: 0;
+}
+/* ここまでリセットcss */
+
+
+
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ここからcss */
+
+
+/* ここからcontaienr-box */
+.container-box{
+
+}
+.inner{
+    margin-left:20px ;
+    margin-right:20px ;
+}
+
+
+
+/* ここからheader */
+header{
+    height: 60px;
+}
+.navbar-toggler{
+  border: none;
+}
+.nav-link{
+    padding: 14px 58px 24px 18px;
+}
+.nav-item{
+    /* padding: 14px 48px 24px 18px; */
+}
+
+
+/* ここからtop */
+.top-img img{
+    width: 100%;
+}
+
+/* ここからshop */
+.shop-btn a  img{
+margin-left:auto ;
+display: block;
+/* position: fixed; */
+
+}
+
+/* ここからconsept */
+.consept-img img {
+   width: 100%;
+}
+.consept-mov iframe{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ここからcontent */
+.content-img img{
+    margin-top: 70px;
+    width: 100%;
+}
+.content-img img:nth-of-type(3){
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* ここからbt */
+.btn{
+    padding: 0 !important;
+    margin: 70px auto;
+    display: block;
+}
+.bt .btn img{
+    width: 100%;
+} 
+
+
+/* ここからtopic */
+.topic{
+    display: block;
+}
+.topic-logo{
+  margin-bottom: 40px;
+}
+.topic-logo img{
+    width: 100%;
+}
+
+.topic-item{
+    width: 100%;
+}
+.row{
+}
+.topic-item{
+
+}
+.topic-img{
+    width: 100%;
+    margin-bottom: 35px;
+}
+.topic-img img{
+    width: 195px;
+}
+
+
+/* ここからattentin */
+.attention{
+    margin-bottom: 30px;
+}
+.attention p {
+    color: #7a7a7a;
+    font-size: 10px;
+    line-height: 24px;
+
+}
+
+/* ここからtrans */
+.trans{
+}
+.trans-text{
+    background-color: #DDDDDD;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.trans-text a{
+    color: #3F3F3F;
+    font-size: 14px;
+    border-bottom: 1px solid #3f3f3f;
+}
+
+/* ここからfooter */
+footer{
+background: #F5F5F5;
+}
+.footer-item ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    border: #E6E6E6 1px solid;
+}
+.footer-item ul li{
+    width: 50%;
+    border: #E6E6E6 1px solid;
+}
+.footer-item ul li a{
+    padding: 21px 12px;
+    display: block;
+    color: #4c4c4c;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/* ここからcopy-right */
+.footer-copyright{
+    color: #4c4c4c;
+    font-size:10px ;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+
+/* // 画面サイズが576px以上に適用 */
+@media (min-width: 576px){
+    .inner{
+        margin-left:25px ;
+        margin-right:25px ;
+    }
+    .consept{
+        margin-bottom: 50px;
+        position: relative;
+    }
+   .consept-img{
+       margin-bottom: 100px;
+       top: 10px;
+       position: relative;
+   }
+   .rel{
+       position: relative;
+       z-index: 1;
+   }
+   .ab{
+       position: absolute;
+       top: -5px;
+       z-index: -1;
+   }
+   .consept-mov iframe{
+       width: 50%;
+   }
+   .consept-mov{
+       position: relative;
+       top: -40px;
+   }
+
+   .content-img img:nth-of-type(6){
+       width: 90% !important;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .btn img {
+    width: 50% !important;
+    margin: 0 auto;
+   }
+   .topic-logo img{
+      width: 60%;
+      margin:  0 auto;
+      display: block;
+   }
+    .topic-img img{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .navbar-collapse ul li a:hover{
+        color:rgb(196, 189, 189) !important;
+        cursor: pointer;
+    }
+
+}
+
+
+
+/* // 画面サイズが992px以上に適用 */
+@media (min-width: 992px){
+    .inner{
+        max-width:1370px ;
+        margin: 0 auto;
+    }
+    /* ここからheader */
+    header ul{
+        max-width: 1100px;
+    }
+    header ul li{
+        padding: 5px 15px !important;
+    }
+    header ul li a{
+        padding: 10px 35px !important;
+    }
+    .navbar-brand{
+        padding: 10px 35px !important;
+    }
+    .container-nav {
+        height: 60px;
+    }
+    nav{
+        display: block;
+        height:60px;
+    }
+
+    /* ここからtopic */
+    .attention{
+        margin:50px  50px;   
+    }
+
+
+
+    /* ここからfooter */
+    .footer{       
+        max-width:1370px ;
+        margin: 0 auto;
+    }
+    .footer-item{
+    }
+    .footer-item ul{
+        border: none;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .footer-item ul li{
+        border: none;
+        width: auto ;
+        margin: 0 15px;
+        
+    }
+    .footer-item ul li a{
+        padding: 0;
+    }
+
+    .footer-copyright{
+        padding-bottom: 30px;
+    }
+
+
+}
