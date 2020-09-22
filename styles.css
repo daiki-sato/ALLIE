@@ -123,22 +123,10 @@ input, select {
 
 
 
-
-
-
-
-
-
-
-
-
 /* ここからcss */
 
 
 /* ここからcontaienr-box */
-.container-box{
-
-}
 .inner{
     margin-left:20px ;
     margin-right:20px ;
@@ -155,9 +143,6 @@ header{
 }
 .nav-link{
     padding: 14px 58px 24px 18px;
-}
-.nav-item{
-    /* padding: 14px 48px 24px 18px; */
 }
 
 
@@ -222,17 +207,14 @@ display: block;
 .topic-item{
     width: 100%;
 }
-.row{
-}
-.topic-item{
-
-}
 .topic-img{
     width: 100%;
     margin-bottom: 35px;
 }
 .topic-img img{
-    width: 195px;
+    width: 130px;
+    margin:0 auto;
+    display: block;
 }
 
 
@@ -248,8 +230,6 @@ display: block;
 }
 
 /* ここからtrans */
-.trans{
-}
 .trans-text{
     background-color: #DDDDDD;
     padding: 20px 40px;
